@@ -1,0 +1,15 @@
+alias2html used to convert the postfix mail alias into html pages. 
+
+By default, the alias file path is "/usr/local/etc/postfix/aliases". You can change it to your path by 
+vim alias2html
+and modify 
+path = "/usr/local/etc/postfix/aliases" to your real file 
+
+the generated html will be showed in standard output
+
+so you have to 
+
+./alias2html > output.html
+
+and put the output.html to somewhere you want people to access. 
+
